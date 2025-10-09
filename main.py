@@ -1,7 +1,8 @@
 from rich.console import Console
 from rich.table import Table
-from rich.prompt import IntPrompt
+from rich.prompt import IntPrompt, Prompt
 import sys
+import random
 
 console = Console()
 
@@ -82,16 +83,30 @@ def main():
     while True:
         show_menu()
         try:
-            choice = IntPrompt.ask("\nSelect a pattern number", default=0)
+            choice_input = Prompt.ask("\nSelect a pattern number (or type 'R' for a random pattern)", default="0")
         except KeyboardInterrupt:
             console.print("\n[bold red]Exiting...[/bold red]")
             sys.exit(0)
+
+        # Check for random pattern
+        if choice_input.strip().upper() == "R":
+            choice = random.choice(list(PATTERNS.keys()))
+            console.print(f"[bold magenta]Randomly selected pattern:[/bold magenta] {PATTERNS[choice]['name']}")
+        else:
+            try:
+                choice = int(choice_input)
+            except ValueError:
+                console.print("[red]Invalid input! Enter a number or 'R'[/red]")
+                continue
+
         if choice == 0:
             console.print("[bold yellow]Goodbye![/bold yellow]")
             sys.exit(0)
+
         if choice not in PATTERNS:
             console.print("[red]Invalid choice! Please select a valid pattern number.[/red]")
             continue
+
         pattern = PATTERNS[choice]
         mode = select_mode(pattern["name"])
         if mode == 1:
