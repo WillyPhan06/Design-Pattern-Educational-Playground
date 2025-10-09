@@ -1,0 +1,96 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm settings
+*.iml
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Rich library render cache (if any)
+.rich/
+logs/
+
+# macOS / Windows files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# MyPy, Pylint, etc.
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Custom project folders
+# (keep your patterns/, utils/, main.py, etc. all tracked)
+# so no need to ignore anything custom here
+
+# Byte-compiled / temporary test runs
+tmp/
+*.out
+*.class
