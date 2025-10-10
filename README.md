@@ -1,3 +1,78 @@
+Perfect — I got you 😎
+Here’s the polished **“Project Demo”** section with clear and friendly descriptions for each screenshot, written just like a professional README but still keeping your natural tone and clarity.
+
+---
+
+## 🖼️ Project Demo
+
+Here are some screenshots showcasing different parts of the program:
+
+---
+
+### 🏠 Main Menu
+
+![Main Menu](diagrams/main_menu.png)
+
+To reach this part, follow the **Getting Started** instructions at the bottom of this README to set up and run the program.
+
+This is the **main menu**, where you can explore all **23 design patterns**.
+From here, you can:
+
+* Choose a specific design pattern to learn
+* Type `R` to get a **random pattern** and start right away
+* Type `0` to **exit** the program
+
+Everything happens directly in the **CLI (Command Line Interface)**.
+
+---
+
+### ⚖️ Choose-in-Two Screen
+
+![Choose in Two](diagrams/choose_in_two.png)
+
+After selecting (or randomizing) a pattern, you’ll reach this screen.
+Here, you can **choose between two paths**:
+
+1. Play an **interactive educational mini-game** of that pattern
+2. Or **go deep dive** into the **theory explanation** of that pattern
+
+> ⚠️ **Note:** When you choose the deep dive option, the program usually displays the explanation **and then automatically returns to the main menu**.
+> So remember to **scroll up** in your terminal to read the deep dive content — otherwise, it may look like it just went back to the main menu.
+
+---
+
+### 🎮 Mini Game Example
+
+![Mini Game Example](diagrams/mini_game_ex.png)
+
+This is one of the **interactive mini-games**.
+Each one was **brainstormed and designed by me** to make sure it’s:
+
+* Super **educational**
+* Intuitive and **easy to understand**
+* A fun way to **learn by doing** instead of just reading theory
+
+These games help reinforce the logic behind each design pattern through hands-on interaction.
+
+---
+
+### 🔍 Deep Dive Example
+
+![Deep Dive Example](diagrams/deep_dive_ex.png)
+
+This is the **Deep Dive** section — the **theoretical explanation** of the pattern.
+It’s meant to clarify the concepts introduced in the mini-game, giving you a deeper understanding of **how and why** the pattern works.
+
+---
+
+## 📊 Use Case Diagram
+
+Here’s the system’s use case diagram for quick reference:
+
+![Use Case Diagram](diagrams/use_case_diagram.png)
+
+---
+
 ## 🚀 Getting Started
 
 Follow these steps to set up and run this project on your local machine.
@@ -63,14 +138,6 @@ When you’re done working:
 ```bash
 deactivate
 ```
-
----
-
-## 📊 Use Case Diagram
-
-Here’s the system’s use case diagram for quick reference:
-
-![Use Case Diagram](diagrams/use_case_diagram.png)
 
 ---
 
