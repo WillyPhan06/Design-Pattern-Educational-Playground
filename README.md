@@ -62,7 +62,7 @@ It’s meant to clarify the concepts introduced in the mini-game, giving you a d
 
 ## ⚠️ Known Bug: CLI Resize in VSCode
 
-![CLI Resize Bug](templates/bug.png)
+![CLI Resize Bug](diagrams/bug.png)
 
 There’s a minor display issue when **resizing the terminal height** in VSCode while running the program:
 
