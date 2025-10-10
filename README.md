@@ -1,8 +1,3 @@
-Perfect — I got you 😎
-Here’s the polished **“Project Demo”** section with clear and friendly descriptions for each screenshot, written just like a professional README but still keeping your natural tone and clarity.
-
----
-
 ## 🖼️ Project Demo
 
 Here are some screenshots showcasing different parts of the program:
