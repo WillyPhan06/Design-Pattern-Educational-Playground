@@ -60,6 +60,21 @@ It’s meant to clarify the concepts introduced in the mini-game, giving you a d
 
 ---
 
+## ⚠️ Known Bug: CLI Resize in VSCode
+
+![CLI Resize Bug](templates/bug.png)
+
+There’s a minor display issue when **resizing the terminal height** in VSCode while running the program:
+
+* If you **increase or decrease the terminal height**, the **tables in the CLI may become glitchy**.
+* The **input field may appear duplicated multiple times** in the display.
+
+> ✅ **Important:** Despite the visual glitch, **all functionality still works normally**. You can continue interacting with the program without issues.
+
+> 💡 Tip: To avoid confusion, try to **keep a consistent terminal size** while running the program.
+
+---
+
 ## 📊 Use Case Diagram
 
 Here’s the system’s use case diagram for quick reference:
