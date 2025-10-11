@@ -60,6 +60,17 @@ It’s meant to clarify the concepts introduced in the mini-game, giving you a d
 
 ---
 
+## 🎬 Quick Demo
+
+![Quick Demo](diagrams/quick_demo.gif)
+
+Here’s a short demo showcasing how the program looks and behaves inside the CLI.
+It walks through the core features — from navigating the main menu, choosing a design pattern, and trying out the interactive mini-game or deep dive theory section.
+
+> 💡 This demo is meant to give a quick visual overview of how smooth and interactive the CLI experience is before trying it yourself.
+
+---
+
 ## ⚠️ Known Bug: CLI Resize in VSCode
 
 ![CLI Resize Bug](diagrams/bug.png)
@@ -80,6 +91,18 @@ There’s a minor display issue when **resizing the terminal height** in VSCode 
 Here’s the system’s use case diagram for quick reference:
 
 ![Use Case Diagram](diagrams/use_case_diagram.png)
+
+---
+
+## 🗂️ File Structure Diagram
+
+![File Structure Diagram](diagrams/file_structure_diagram.png)
+
+This diagram shows the **overall structure of the project**, making it easier to understand how everything is organized.
+
+The 'pattern' folder represents the skeleton for 23 different design patterns folder inside 'patterns' folder.
+
+* For example, inside 'patterns' folder we have 'strategy' folder which contains '__init__.py', 'strategy_game.py', and 'strategy_deepdive.py'.
 
 ---
 
