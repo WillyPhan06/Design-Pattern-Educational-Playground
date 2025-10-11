@@ -100,9 +100,9 @@ Here’s the system’s use case diagram for quick reference:
 
 This diagram shows the **overall structure of the project**, making it easier to understand how everything is organized.
 
-The 'pattern' folder represents the skeleton for 23 different design patterns folder inside 'patterns' folder.
+The 'pattern' folder represents the skeleton for 23 different design patterns folders inside 'patterns' folder.
 
-* For example, inside 'patterns' folder we have 'strategy' folder which contains '__init__.py', 'strategy_game.py', and 'strategy_deepdive.py'.
+* For example, inside 'patterns' folder we have 'strategy' folder which contains '\_\_init\_\_.py', 'strategy_game.py', and 'strategy_deepdive.py'.
 
 ---
 
